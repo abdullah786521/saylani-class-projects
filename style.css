@@ -1,0 +1,268 @@
+
+
+.parent {
+    display: flex;
+    justify-content: center;
+gap: 40px;
+   
+    flex-wrap: wrap;
+
+   
+}
+.scalex{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: all ease-in 1s;
+}
+.scalex:hover{
+
+    transform: scaleX(1.5);
+}
+.scaley{
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in 1s;
+}
+.scaley:hover{
+
+    transform:scaleY(1.5);
+}
+
+.scale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: all ease-in 1s;
+}
+.scale:hover{
+
+    transform: scale(1.5);
+}
+.translateX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+    transform: translateX(-20px ,40px);
+    
+}
+.translateX:hover{
+
+    transform: translateX(10%);
+}
+.translatey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+}
+.translatey:hover{
+
+    transform: translateY(-25%);
+}
+.translate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition:  ease 1s;
+}
+.translate:hover{
+
+    transform: translate(100px);
+}
+.matrix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: all ease-in 1s;
+}
+.matrix:hover{
+
+    transform: 
+        matrix(1, -0.3, 0, 1, 0, 0);
+}
+.rotate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+}
+.rotate:hover{
+
+    transform: rotate(360deg);
+}
+.skew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: all ease-in 1s;
+}
+.skew:hover{
+
+    transform: skew(30deg ,30deg);
+}
+.skewx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: all ease-in 1s;
+}
+.skewx:hover{
+
+    transform: skewX(47deg);
+}
+.skewy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+}
+.skewy:hover{
+
+    transform: skewY(30deg);
+}
+.matrix3d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+}
+.matrix3d:hover{
+
+    transform: matrix3d( 
+        0.6, 0.1, 0.7, 0, 
+        -0.5, 0.8, 0.1, 0, 
+        -0.6, -0.5, 0.5, 0, 
+        0, 0, 0, 1)
+}
+.translate3d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+}
+.translate3d:hover{
+
+    transform: rotate(0.5turn)
+}
+.rotatey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition:  ease 1s;
+}
+.rotatey:hover{
+
+    transform: rotateY(45deg);
+}
+.rotatex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 240px;
+    height: 135px;
+    margin: 10px;
+    transition: ease 1s;
+}
+.rotatex:hover{
+
+    transform: rotateX(50deg);
+}
+.translatez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 103, 126);
+    width: 245px;
+    height: 135px;
+    margin: 10px;
+    transition:  ease 1s;
+}
+.translatez:hover{
+
+    transform: rotateZ(90deg)
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250pxpx;
+    margin: 10px;
+    height: 135px;
+    opacity: 0.5;
+    background-color: rgb(170, 0, 71);   
+}
+body{
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: rgb(229, 255, 0);
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrA7IoBlbkYHr3SttTsA3zMV7v1Aj6eFacf0arsv3r025v3h5l_I_yx2gE8wavIK3QM_o&usqp=CAU);
+ background-size: cover;
+    
+}
+.first {
+    display: flex;
+    gap: 10px;
+}
